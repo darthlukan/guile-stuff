@@ -54,8 +54,6 @@
 
 (display (comparisons 1 1)) (newline)             ; => same object => #t
 (display (comparisons 1 '(1))) (newline)          ; => not at all the same => #f
-(display (comparisons 1 "1")) (newline)           ; => not at all the same => #f
-
 
 ;; Object properties
 (define obj

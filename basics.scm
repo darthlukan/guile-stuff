@@ -141,5 +141,4 @@
       (lambda (x y)
         (let ((temp (gensym)))
           `(let ((,temp ,x))
-             (if ,temp ,temp ,y)))))
-    ))
+             (if ,temp ,temp ,y)))))))
